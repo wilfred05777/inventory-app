@@ -51,6 +51,10 @@ This repository contains the code corresponding to an in-depth tutorial availabl
 
 # Encountered Issues & Solutions
 
+## package.json issues
+
+-  npm i <package-name>@<version>
+
 ## github repository
 
 ### - Unclickable folder in Repo on GitHub (Arrow on folder)
