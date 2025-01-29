@@ -46,6 +46,7 @@ This repository contains the code corresponding to an in-depth tutorial availabl
 
 # Client folder
 
+-  npm i @mui/x-data-grid @mui/material @emotion/react @emotion/styled lucide-react numeral recharts uuid axios
 -  npm i -D @types/node @types/uuid @types/numeral
 
 # Encountered Issues & Solutions
