@@ -47,3 +47,11 @@ This repository contains the code corresponding to an in-depth tutorial availabl
 # Client folder
 
 -  npm i -D @types/node @types/uuid @types/numeral
+
+# Encountered Issues & Solutions
+
+## github repository
+
+### - Unclickable folder in Repo on GitHub (Arrow on folder)
+
+-  [Unclickable folder in Repo on GitHub (Arrow on folder)](https://medium.com/@hassaanistic/unclickable-folder-in-repo-on-github-arrow-on-folder-b8fa21b13858#:~:text=When%20you%20are%20pushing%20your,a%20new%20repository%20on%20GitHub)
