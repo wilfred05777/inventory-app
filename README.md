@@ -50,6 +50,13 @@ This repository contains the code corresponding to an in-depth tutorial availabl
 -  npm i -D @types/node @types/uuid @types/numeral
 -  npm i -D tw-colors
 
+-- tailwind.config.ts
+
+````
+0:19:45 - tailwind.config.ts
+
+```
+
 # Encountered Issues & Solutions
 
 ## VS Code Extensions
@@ -68,3 +75,4 @@ This repository contains the code corresponding to an in-depth tutorial availabl
 
 -  [Unclickable folder in Repo on GitHub (Arrow on folder)](https://medium.com/@hassaanistic/unclickable-folder-in-repo-on-github-arrow-on-folder-b8fa21b13858#:~:text=When%20you%20are%20pushing%20your,a%20new%20repository%20on%20GitHub)
 -  \*note: effective solution
+````
