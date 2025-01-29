@@ -43,3 +43,7 @@ This repository contains the code corresponding to an in-depth tutorial availabl
 -  [Data model diagram](https://drawsql.app/teams/team-3023/diagrams/56-inventorymanagement)
 -  [Prisma schema file](https://github.com/ed-roh/inventory-management/blob/master/server/prisma/schema.prisma)
 -  [AWS commands](https://github.com/ed-roh/inventory-management/blob/master/server/aws-ec2-instructions.md)
+
+# Client folder
+
+-  npm i -D @types/node @types/uuid @types/numeral
