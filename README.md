@@ -48,8 +48,15 @@ This repository contains the code corresponding to an in-depth tutorial availabl
 
 -  npm i @mui/x-data-grid @mui/material @emotion/react @emotion/styled lucide-react numeral recharts uuid axios
 -  npm i -D @types/node @types/uuid @types/numeral
+-  npm i -D tw-colors
 
 # Encountered Issues & Solutions
+
+## VS Code Extensions
+
+-  Tailwind CSS IntelliSense - Tailwind Labs
+-  Tailwind Documentation - alfredbirk \*\*optional
+-  Prettier
 
 ## package.json issues
 
