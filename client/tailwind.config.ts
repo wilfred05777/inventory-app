@@ -35,20 +35,20 @@ const shadeMapping = {
 };
 
 // 0:22:45 - generateThemeObject
-const generateThemeObject = (color: any, mapping: any, invert: boolean) => {
+const generateThemeObject = (colors: any, mapping: any, invert = false) => {
    const theme: any = {};
    baseColors.forEach((color) => {
       theme[color] = {};
       Object.entries(mapping).forEach(([key, value]: any) => {
          const shadeKey = invert ? value : key;
-         theme[color][key] = `colors[color][shadeKey]`;
+         theme[color][key] = colors[color][shadeKey];
       });
    });
    return theme;
 };
 
 // 0:22:45 - lightTheme
-const lightTheme = generateThemeObject(colors, shadeMapping, false);
+const lightTheme = generateThemeObject(colors, shadeMapping);
 
 // 0:22:45 - darkTheme
 const darkTheme = generateThemeObject(colors, shadeMapping, true);
@@ -57,7 +57,7 @@ const darkTheme = generateThemeObject(colors, shadeMapping, true);
 const themes = {
    light: {
       ...lightTheme,
-      white: "#fff"
+      white: "#ffffff"
    },
    dark: {
       ...darkTheme,
@@ -87,3 +87,26 @@ export default {
       createThemes(themes)
    ]
 } satisfies Config;
+
+// const config: Config = {
+//    darkMode: "class",
+//    content: [
+//       "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+//       "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+//       "./src/app/**/*.{js,ts,jsx,tsx,mdx}"
+//    ],
+
+//    theme:{
+//       extend: {
+//          backgroundImage: {
+//             "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+//             "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))"
+//          }
+//       }
+//    },
+//    plugins: [
+//       createThemes(themes)
+//    ]
+// }
+
+// export default config;

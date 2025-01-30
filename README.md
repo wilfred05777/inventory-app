@@ -64,6 +64,7 @@ This repository contains the code corresponding to an in-depth tutorial availabl
 -  Tailwind CSS IntelliSense - Tailwind Labs
 -  Tailwind Documentation - alfredbirk \*\*optional
 -  Prettier
+-  ES7 + React/Redux/React-Native snippets - dsznajder
 
 ## package.json issues
 
