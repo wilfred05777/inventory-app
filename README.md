@@ -74,5 +74,14 @@ This repository contains the code corresponding to an in-depth tutorial availabl
 
 ### - Unclickable folder in Repo on GitHub (Arrow on folder)
 
+`Jan. 20, 2025 - Thursday`
+
 -  [Unclickable folder in Repo on GitHub (Arrow on folder)](https://medium.com/@hassaanistic/unclickable-folder-in-repo-on-github-arrow-on-folder-b8fa21b13858#:~:text=When%20you%20are%20pushing%20your,a%20new%20repository%20on%20GitHub)
 -  \*note: effective solution
+
+### - In Tailwind CSS styling - self struggle issues
+
+`Jan. 31, 2025 - Friday`
+
+-  struggling how they come together
+-  note: you need to expose yourself regularly on daily basis understanding concepts of HTML and CSS.
