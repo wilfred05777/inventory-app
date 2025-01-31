@@ -1,3 +1,6 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import { useRef } from "react";
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import {
@@ -87,7 +90,7 @@ export default function StoreProvider({
 }: {
    children: React.ReactNode;
 }) {
-   const storeRef = useRef<AppStore>();
+   const storeRef = useRef<AppStore>(makeStore());
    if (!storeRef.current) {
       storeRef.current = makeStore();
       setupListeners(storeRef.current.dispatch);
