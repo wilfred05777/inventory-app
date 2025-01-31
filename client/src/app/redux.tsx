@@ -4,10 +4,10 @@ import {
    TypedUseSelectorHook,
    useDispatch,
    useSelector,
-   Provider,
+   Provider
 } from "react-redux";
-import globalReducer from "@/state";
-import { api } from "@/state/api";
+import globalReducer from "@/app/state";
+import { api } from "@/app/state/api";
 import { setupListeners } from "@reduxjs/toolkit/query";
 
 import {
@@ -18,7 +18,7 @@ import {
    PAUSE,
    PERSIST,
    PURGE,
-   REGISTER,
+   REGISTER
 } from "redux-persist";
 import { PersistGate } from "redux-persist/integration/react";
 import createWebStorage from "redux-persist/lib/storage/createWebStorage";
@@ -34,7 +34,7 @@ const createNoopStorage = () => {
       },
       removeItem(_key: any) {
          return Promise.resolve();
-      },
+      }
    };
 };
 
@@ -46,11 +46,11 @@ const storage =
 const persistConfig = {
    key: "root",
    storage,
-   whitelist: ["global"],
+   whitelist: ["global"]
 };
 const rootReducer = combineReducers({
    global: globalReducer,
-   [api.reducerPath]: api.reducer,
+   [api.reducerPath]: api.reducer
 });
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 
@@ -67,10 +67,10 @@ export const makeStore = () => {
                   PAUSE,
                   PERSIST,
                   PURGE,
-                  REGISTER,
-               ],
-            },
-         }).concat(api.middleware),
+                  REGISTER
+               ]
+            }
+         }).concat(api.middleware)
    });
 };
 
@@ -83,7 +83,7 @@ export const useAppSelector: TypedUseSelectorHook<RootState> = useSelector;
 
 /* PROVIDER */
 export default function StoreProvider({
-   children,
+   children
 }: {
    children: React.ReactNode;
 }) {
