@@ -49,6 +49,7 @@ This repository contains the code corresponding to an in-depth tutorial availabl
 -  npm i @mui/x-data-grid @mui/material @emotion/react @emotion/styled lucide-react numeral recharts uuid axios
 -  npm i -D @types/node @types/uuid @types/numeral
 -  npm i -D tw-colors
+-  npm i react-redux @reduxjs/toolkit dotenv
 
 -- tailwind.config.ts
 
@@ -79,6 +80,8 @@ This repository contains the code corresponding to an in-depth tutorial availabl
 
 -  [Unclickable folder in Repo on GitHub (Arrow on folder)](https://medium.com/@hassaanistic/unclickable-folder-in-repo-on-github-arrow-on-folder-b8fa21b13858#:~:text=When%20you%20are%20pushing%20your,a%20new%20repository%20on%20GitHub)
 -  \*note: effective solution
+
+-
 
 ### - In Tailwind CSS styling - self struggle issues
 
