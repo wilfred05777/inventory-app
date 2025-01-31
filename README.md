@@ -50,6 +50,7 @@ This repository contains the code corresponding to an in-depth tutorial availabl
 -  npm i -D @types/node @types/uuid @types/numeral
 -  npm i -D tw-colors
 -  npm i react-redux @reduxjs/toolkit dotenv
+-  npm i redux-persist - 0:53:00
 
 -- tailwind.config.ts
 
