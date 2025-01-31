@@ -65,6 +65,7 @@ This repository contains the code corresponding to an in-depth tutorial availabl
 -  Tailwind Documentation - alfredbirk \*\*optional
 -  Prettier
 -  ES7 + React/Redux/React-Native snippets - dsznajder
+-  Inline fold for Tailwind css too much tag on a class
 
 ## package.json issues
 
