@@ -106,3 +106,7 @@ This repository contains the code corresponding to an in-depth tutorial availabl
 ### PostgreSQL encountered ISSUE / Problem and Solution
 
 -- postgresql Unable to connect to server: connection failed::1), Port 5432 failed: fe_sendauth: no password supplied
+
+-- possible solution is to search and test first
+-- do more research about postresql cannot create new server issue - on my end
+-- second idea is to reinstall postgress as I forget the master password of it.
