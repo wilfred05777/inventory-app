@@ -95,3 +95,7 @@ This repository contains the code corresponding to an in-depth tutorial availabl
 -- Tailwind learning: about adding a left side margin on medium screen
 
 -- To add left side spacing specifically for medium screens (md) in Tailwind CSS, use the class md:ml-<number> where <number> represents the desired spacing value from Tailwind's spacing scale; for example, md:ml-4 would add a medium left margin only when the screen size is medium and above.
+
+### Database tools
+
+-- https://drawsql.app/diagrams
