@@ -50,7 +50,7 @@ const Navbar = () => {
          {/* RIGHT SIDE */}
          <div className='flex justify-between item-center gap-5'>
             <div className='hidden md:flex justify-between items-center gap-5'>
-               <div>
+               <div className='md:ml-4'>
                   {/* <button onClick={() => {}}> */}
                   <button onClick={toggleDarkMode}>
                      {isDarkMode ? (
