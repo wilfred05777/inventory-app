@@ -102,3 +102,7 @@ This repository contains the code corresponding to an in-depth tutorial availabl
 -- Data Model
 -- table schema explained
 -- and for performing data analysis separate or run a once in a while / week separte aggration
+
+### PostgreSQL encountered ISSUE / Problem and Solution
+
+-- postgresql Unable to connect to server: connection failed::1), Port 5432 failed: fe_sendauth: no password supplied
