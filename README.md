@@ -99,3 +99,6 @@ This repository contains the code corresponding to an in-depth tutorial availabl
 ### Database tools
 
 -- https://drawsql.app/diagrams
+-- Data Model
+-- table schema explained
+-- and for performing data analysis separate or run a once in a while / week separte aggration
