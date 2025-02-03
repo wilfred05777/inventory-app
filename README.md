@@ -154,5 +154,21 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
 
 `server / terminal`
 
--  `npm i express body-parser cors dotenv helmet morgan concurrently`
+-  `npm i express body-parser cors dotenv helmet morgan concurrently rimraf`
 -  `npm i -D nodemon @types/cors @types/express @types/node @types/morgan`
+
+-  package.json file update below code:
+
+   ```
+   "scripts": {
+   "test": "echo \"Error: no test specified\" && exit 1",
+   "seed": "ts-node prisma/seed.ts",
+   "build": "rimraf dist && npx tsc",
+   "start": "npm run build && node dist/index.js",
+   "dev": "npm run build && concurrently \"npx tsc -w\" \"nodemon --exec ts-node src/index.ts\""
+   },
+   ```
+
+-  server folder then `npm run dev`
+
+-  testing route via gitbash CLI: `curl http://localhost:8000/hello`
