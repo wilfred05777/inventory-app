@@ -132,3 +132,13 @@ This repository contains the code corresponding to an in-depth tutorial availabl
 -  `"moduleResolution": "nodenext"`
 -  `"resolveJsonModule": true`
 -  `update "outDir": "./", to "outDir": "./dist",`
+
+-  `after creating all the model for each table in the database at prisma`
+-  `adjust package.json file at server ` - `"scripts":{ "seed": "ts-node prisma/seed.ts"}`
+
+-  `.env file ` - `# // example - postgresql://USER:PASSWORD@HOST:PORT/DATABASE
+DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?schema=public"`
+
+-  `npx prisma generate`
+-  `npx prisma migrate dev --name init`
+-  `npm run seed`
