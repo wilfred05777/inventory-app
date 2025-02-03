@@ -68,6 +68,7 @@ This repository contains the code corresponding to an in-depth tutorial availabl
 -  Prettier
 -  ES7 + React/Redux/React-Native snippets - dsznajder
 -  Inline fold for Tailwind css too much tag on a class
+-  Prisma by prisma - for .prisma file extension
 
 ## package.json issues
 
