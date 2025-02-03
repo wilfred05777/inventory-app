@@ -98,7 +98,7 @@ This repository contains the code corresponding to an in-depth tutorial availabl
 
 ### Database tools
 
--- https://drawsql.app/diagrams
+-- https://drawsql.app/diagrams - e.g https://drawsql.app/teams/team-3023/diagrams/56-inventorymanagement
 -- Data Model
 -- table schema explained
 -- and for performing data analysis separate or run a once in a while / week separte aggration
@@ -110,3 +110,23 @@ This repository contains the code corresponding to an in-depth tutorial availabl
 -- possible solution is to search and test first
 -- do more research about postresql cannot create new server issue - on my end
 -- second idea is to reinstall postgress as I forget the master password of it.
+
+# Server folder
+
+-  `create server folder in the root directory -> mkdir server then cd server`
+-  `npm init -y `
+-  `npm i prisma @prisma/client`
+-  `npx prisma init`
+-  `cd prisma folder in server folder`
+-  `add assets for the server folder`
+
+-  `cd server`
+-  `npm install typescript --save-dev`
+-  `npx tsc --init`
+-  `npm i -D ts-node typescript @types/node`
+
+-  `tsconfig.json file at server folder`
+-  `find "module": "commonjs" change to "module":"nodenext `
+-  `"moduleResolution": "nodenext"`
+-  `"resolveJsonModule": true`
+-  `update "outDir": "./", to "outDir": "./dist",`
