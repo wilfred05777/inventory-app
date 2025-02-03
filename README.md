@@ -149,3 +149,10 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
 
 -  check the postgreSQL table if there is an existing tables it means records are already in there
 -  `` PrismaClientKnownRequestError: Invalid `model.deleteMany()` invocation in `` - delete the tables and redo again `Db-script-01`
+
+#### Connect the API
+
+`server / terminal`
+
+-  `npm i express body-parser cors dotenv helmet morgan concurrently`
+-  `npm i -D nodemon @types/cors @types/express @types/node @types/morgan`
