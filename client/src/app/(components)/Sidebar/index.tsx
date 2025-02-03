@@ -104,9 +104,9 @@ const Sidebar = () => {
                isCollapsed={isSidebarCollapsed}
             />
             <SidebarLink
-               href='/invetory'
+               href='/inventory'
                icon={Archive}
-               label='Invetory'
+               label='Inventory'
                isCollapsed={isSidebarCollapsed}
             />
             <SidebarLink

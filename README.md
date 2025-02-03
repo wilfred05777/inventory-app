@@ -173,10 +173,15 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
 
 -  testing route via gitbash CLI: `curl http://localhost:8000/hello`
 
-###### creating a Controller
+###### Creating a Controller and Routes
 
--  server folder
--  src folder
--  controller / DashBoardController.ts 2:08:25 - 2:14:18
-   `dir`
--  route / next
+-  folder: server / src/ controller / DashBoardController.ts 2:08:25 - 2:14:18
+   -  `API calls diri ang data models gina pull and customize the data transformation accordingly to specifics it depends sa programmer or requirements sa clients.`
+-  folder: server/src/ routes / dashboardRoutes.ts 2:14:15 - 2:16:50
+   -  files to be created and modified
+      `server/src/index.ts`
+      `server/src/routes/dashboardRoutes.ts `
+-  Testing the routes
+   -  gitbash terminal: `curl http://localhost:8000/dashboard`
+   -  Thunder Client: - `get:http://localhost:8000/dashboard` - `body` - `json format`
+-  next
