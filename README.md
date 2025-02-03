@@ -142,3 +142,7 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
 -  `npx prisma generate`
 -  `npx prisma migrate dev --name init`
 -  `npm run seed`
+
+## Encounter Issue on Seeding to database
+
+-
