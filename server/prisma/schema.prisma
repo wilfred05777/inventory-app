@@ -169,7 +169,7 @@ model PurchaseSummary{
 model ExpenseSummary {
   expenseSummaryId  String @id
   totalExpenses     Float
-  data              DateTime
+  date              DateTime
   ExpenseByCategory ExpenseByCategory[] // foreign key relation
 }
 
