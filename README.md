@@ -139,10 +139,13 @@ This repository contains the code corresponding to an in-depth tutorial availabl
 -  `.env file ` - `# // example - postgresql://USER:PASSWORD@HOST:PORT/DATABASE
 DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?schema=public"`
 
+##### Db-script-01
+
 -  `npx prisma generate`
 -  `npx prisma migrate dev --name init`
 -  `npm run seed`
 
-## Encounter Issue on Seeding to database
+##### Encounter Issue on Seeding to database
 
--
+-  check the postgreSQL table if there is an existing tables it means records are already in there
+-  `` PrismaClientKnownRequestError: Invalid `model.deleteMany()` invocation in `` - delete the tables and redo again `Db-script-01`
