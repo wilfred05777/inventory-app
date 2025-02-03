@@ -172,3 +172,11 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
 -  server folder then `npm run dev`
 
 -  testing route via gitbash CLI: `curl http://localhost:8000/hello`
+
+###### creating a Controller
+
+-  server folder
+-  src folder
+-  controller / DashBoardController.ts 2:08:25 - 2:14:18
+   `dir`
+-  route / next
