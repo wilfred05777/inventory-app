@@ -185,3 +185,8 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
    -  gitbash terminal: `curl http://localhost:8000/dashboard`
    -  Thunder Client: - `get:http://localhost:8000/dashboard` - `body` - `json format`
 -  next
+
+##### FRONTEND ISSUE AND SOLUTION
+
+-  Feb. 6, 2025 encounter issue
+-  postgres - cannot show and display data on my end : 2:41:48
