@@ -196,5 +196,8 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
 
 ##### FRONTEND ISSUE AND SOLUTION
 
--  Feb. 6, 2025 encounter issue
--  postgres - cannot show and display data on my end : 2:41:48
+- `Feb. 6, 2025 encounter issue`
+- `postgres - cannot show and display data on my end : 2:41:48`
+   - `npm install pg` 
+   - `npm install @prisma/adapter-pg` 
+   - `https://www.prisma.io/docs/orm/overview/databases/postgresql `
