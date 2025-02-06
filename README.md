@@ -210,3 +210,15 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
    -  `not yet resolved and even ask for deepseek`
    -  `read more about RTK - react tool kit`
    -  `https://dev.to/codexam/learn-rtk-query-in-nextjs-in-5-minutes-2nb7`
+
+####
+
+-  `resolve the issue with finally figure out where point of issue are:`
+   -  ```
+      //api.ts
+      baseQuery: fetchBaseQuery({ baseUrl: process.env.NEXT_PUBLIC_API_URL }),
+      ```
+   -  ```
+      //.env.local
+      NEXT_PUBLIC_API_URL = http://localhost:8000
+      ```
