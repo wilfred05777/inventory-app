@@ -141,9 +141,17 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
 
 ##### Db-script-01
 
+-  ```
+   // 01:55:25
+   // .env for server in prisma
+   // example - postgresql://username:password@localhost:5432/database_name
+   DATABASE_URL = "postgresql://postgres:postgres@localhost:5432/inventorymanagement?schema=public"
+
+   ```
 -  `npx prisma generate`
 -  `npx prisma migrate dev --name init`
 -  `npm run seed`
+
 
 ##### Encounter Issue on Seeding to database
 
