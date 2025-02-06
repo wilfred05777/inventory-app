@@ -45,17 +45,19 @@ export const getDashboardMetrics = async (
             },
          });
       // 2nd transformation of data from the backend customize output below:
-      const expenseByCategory = expenseByCategorySummaryRaw.map((item) => ({
-         ...item,
-         amount: item.amount.toString(),
-      }));
+      const expenseByCategorySummary = expenseByCategorySummaryRaw.map(
+         (item) => ({
+            ...item,
+            amount: item.amount.toString(),
+         })
+      );
 
       res.json({
          popularProducts,
          salesSummary,
          purchaseSummary,
          expenseSummary,
-         expenseByCategory,
+         expenseByCategorySummary,
       });
    } catch (error) {
       res.status(500).json({ message: "Error retrieving dashboard metrics" });
