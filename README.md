@@ -148,10 +148,10 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
    DATABASE_URL = "postgresql://postgres:postgres@localhost:5432/inventorymanagement?schema=public"
 
    ```
+
 -  `npx prisma generate`
 -  `npx prisma migrate dev --name init`
 -  `npm run seed`
-
 
 ##### Encounter Issue on Seeding to database
 
@@ -196,8 +196,10 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
 
 ##### FRONTEND ISSUE AND SOLUTION
 
-- `Feb. 6, 2025 encounter issue`
-- `postgres - cannot show and display data on my end : 2:41:48`
-   - `npm install pg` 
-   - `npm install @prisma/adapter-pg` 
-   - `https://www.prisma.io/docs/orm/overview/databases/postgresql `
+-  `Feb. 6, 2025 encounter issue`
+-  `postgres - cannot show and display data on my end : 2:41:48`
+   -  `npm install pg`
+   -  `npm install @prisma/adapter-pg`
+   -  `https://www.prisma.io/docs/orm/overview/databases/postgresql`
+      -  `just tested the server: http://localhost:8000/dashboard it displays the database:inventorymanagement @ postgreSQL on my desktop time check 1:52PM - feb-6-2025 `
+      -  `so possible error is at the client side which i am going to trace now.`
