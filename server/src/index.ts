@@ -20,6 +20,17 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
 
+const CORS_OPTIONS = {
+   origin:
+      process.env.NODE_ENV === "production"
+         ? "https://your-production-domain.com"
+         : "http://localhost:3000", // Next.js default port
+   methods: ["GET", "POST", "PUT", "DELETE"],
+   allowedHeaders: ["Content-Type", "Authorization"],
+   credentials: true,
+};
+app.use(cors(CORS_OPTIONS));
+
 /** ROUTES */
 app.use("/dashboard", dashboardRoutes); // http://localhost:8000/dashboard
 
