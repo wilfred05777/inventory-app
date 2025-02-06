@@ -207,18 +207,19 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
    -  `encounter some issues on nvm on desktop pc its always 19.9.0 https://stackoverflow.com/questions/20711240/how-to-completely-remove-node-js-from-windows`
 
 -  `Feb. 7, 2025 friday `
+
    -  `not yet resolved and even ask for deepseek`
    -  `read more about RTK - react tool kit`
    -  `https://dev.to/codexam/learn-rtk-query-in-nextjs-in-5-minutes-2nb7`
 
-####
+   ####
 
--  `resolve the issue with finally figure out where point of issue are:`
+   -  resolve the issue with finally figure out where point of issue are:
+
    -  ```
-      //api.ts
-      baseQuery: fetchBaseQuery({ baseUrl: process.env.NEXT_PUBLIC_API_URL }),
-      ```
-   -  ```
-      //.env.local
-      NEXT_PUBLIC_API_URL = http://localhost:8000
+      //client/src/state/api.ts
+      baseQuery: fetchBaseQuery({ baseUrl: process.env.NEXT_PUBLIC_API_URL }), // <-- wala na map ang environmental variable ('NEXT_PUBLIC_API_URL') properly mao wala na invoke ang mga data.
+
+      //client/src/.env.local
+      NEXT_PUBLIC_API_URL = http://localhost:8000 // <-- kani ang wala
       ```
