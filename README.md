@@ -203,3 +203,4 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
    -  `https://www.prisma.io/docs/orm/overview/databases/postgresql`
       -  `just tested the server: http://localhost:8000/dashboard it displays the database:inventorymanagement @ postgreSQL on my desktop time check 1:52PM - feb-6-2025 `
       -  `so possible error is at the client side which i am going to trace now.`
+   -  `encounter some issues on nvm on desktop pc its always 19.9.0 https://stackoverflow.com/questions/20711240/how-to-completely-remove-node-js-from-windows`
