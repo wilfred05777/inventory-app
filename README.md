@@ -222,4 +222,5 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
 
       //client/src/.env.local
       NEXT_PUBLIC_API_URL = http://localhost:8000 // <-- kani ang wala
+      NEXT_PUBLIC_API_BASE_URL = "http://localhost:8000"
       ```
