@@ -226,5 +226,16 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
       ```
 
 -  Error On Rating component
+
    -  `error  on CardPopularProducts.tsx on Rating Component 2:46:54`
    -  `app/(components)/Rating/index.tsx @ return [1, 2, 3, 4, 5].map((index) => {} <--- mali ()<--- tama`
+
+-  `Feb. 8, 2025 3:10Am - 5:21am`
+
+   -  `2:47:10 <- explaining starts-> @3:01:03 - 3:23:25 <-end - CardSalesSummary`
+   -  `at this current version of nextjs v15.1.6 always add "use client" at the top of the file hoping they will fixed this in the next version`
+   -  `rechart and read the documentation https://recharts.org/en-US/examples and explore examples from there`
+   -  `computations for date need nako ma rewatch ni 3:01:03 - 3:23:25 `
+   -  `confuse ko sa recharts how it works `
+
+-  `Feb. ##, 2025`
