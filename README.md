@@ -224,3 +224,6 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
       NEXT_PUBLIC_API_URL = http://localhost:8000 // <-- kani ang wala
       NEXT_PUBLIC_API_BASE_URL = "http://localhost:8000"
       ```
+
+-  Error On Rating component
+-  `error  on CardPopularProducts.tsx on Rating Component 2:46:54`
