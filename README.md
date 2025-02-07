@@ -226,4 +226,5 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
       ```
 
 -  Error On Rating component
--  `error  on CardPopularProducts.tsx on Rating Component 2:46:54`
+   -  `error  on CardPopularProducts.tsx on Rating Component 2:46:54`
+   -  `app/(components)/Rating/index.tsx @ return [1, 2, 3, 4, 5].map((index) => {} <--- mali ()<--- tama`
