@@ -238,4 +238,28 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
    -  `computations for date need nako ma rewatch ni 3:01:03 - 3:23:25 `
    -  `confuse ko sa recharts how it works `
 
--  `Feb. ##, 2025`
+   ######
+
+-  `Feb. 8, 2025 - 12:22PM`
+
+   -  `encounter error here at CardExpenseSummary.tsx className='flex items-center'`
+
+      ```
+      {/* LABELS */}
+      <ul className='flex flex-col justify-around items-center xl:items-start py-5 gap-3'>
+         {expenseCategories.map((entry, index) => (
+            <li
+               key={`legend-${index}`}
+               className='flex items-center' //<--- para mag display ang circle legend i forget to set the className for tailwind
+            >
+               <span
+                  className='mr-2 w-3 h-3 rounded-full'
+                  style={{
+                     backgroundColor: colors[index % colors.length],
+                  }}
+               ></span>
+               {entry.name}
+            </li>
+         ))}
+      </ul>
+      ```
