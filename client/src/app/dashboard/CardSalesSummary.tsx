@@ -48,7 +48,7 @@ const CardSalesSummary = () => {
       //   <div className='row-span-3 xl:row-span-6 bg-gray-500 '>
       <div className='row-span-3 xl:row-span-6 bg-white shadow-md rounded-2xl flex flex-col justify-between'>
          {isLoading ? (
-            <div>Loading...</div>
+            <div className='m-5'>Loading...</div>
          ) : (
             <>
                {/* HEADER */}
@@ -118,6 +118,14 @@ const CardSalesSummary = () => {
                            formatter={(value: number) => [
                               `$${value.toLocaleString("en")}`,
                            ]}
+                           labelFormatter={(label) => {
+                              const date = new Date(label);
+                              return date.toLocaleDateString("en-US", {
+                                 year: "numeric",
+                                 month: "long",
+                                 day: "numeric",
+                              });
+                           }}
                         />
                         <Bar
                            dataKey='totalValue'

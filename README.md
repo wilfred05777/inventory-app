@@ -263,3 +263,7 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
          ))}
       </ul>
       ```
+
+######
+
+-  `CardPurchaseSummary creation - 2:47:38 - 3:00:16  client/src/dashboard/CardPurchasedSummary.tsx`
