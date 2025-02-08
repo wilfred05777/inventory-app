@@ -267,3 +267,5 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
 ######
 
 -  `CardPurchaseSummary creation - 2:47:38 - 3:00:16  client/src/dashboard/CardPurchasedSummary.tsx`
+
+   -  `fixing the <AreaChart> bug display => <ResponsiveContainer height={200} className="p-2"></...> 3:42:08`

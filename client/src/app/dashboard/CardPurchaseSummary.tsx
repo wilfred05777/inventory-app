@@ -23,7 +23,7 @@ const CardPurchaseSummary = () => {
    const lastDataPoint = purchaseData[purchaseData.length - 1] || 0;
 
    return (
-      <div className='flex-col justify-between  shado-md rounded-2xl row-span-3 xl:row-span-3 col-span-1 md:col-span-2 xl:col-span-1 bg-white'>
+      <div className='lex flex-col justify-between row-span-2 xl:row-span-3 col-span-1 md:col-span-2 xl:col-span-1 bg-white shadow-md rounded-2xl'>
          {/* <div className='row-span-3 xl:row-span-3 col-span-1 md:col-span-2 xl:col-span-1 bg-gray-500'> */}
          {/* CardPurchaseSummary */}
          {isLoading ? (
@@ -70,8 +70,8 @@ const CardPurchaseSummary = () => {
                   {/* CHART */}
                   <ResponsiveContainer
                      width='100%'
-                     height={250}
-                     className='px-7'
+                     height={200}
+                     className='p-2'
                   >
                      <AreaChart
                         data={purchaseData}
