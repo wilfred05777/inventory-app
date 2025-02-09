@@ -96,7 +96,7 @@ const CardSalesSummary = () => {
                   >
                      <BarChart
                         data={salesData}
-                        margin={{ top: 0, right: 0, left: -25, bottom: 0 }}
+                        margin={{ top: 0, right: 0, left: -15, bottom: 0 }}
                      >
                         <CartesianGrid strokeDasharray='' vertical={false} />
                         <XAxis
@@ -135,16 +135,16 @@ const CardSalesSummary = () => {
                         />
                      </BarChart>
                   </ResponsiveContainer>
-               </div>
-               {/* FOOTER */}
-               <div>
-                  <hr />
-                  <div className='flex justify-between items-center mt-6 text-sm px-7 mb-4'>
-                     <p>{salesData.length || 0} days</p>
-                     <p className='text-sm'>
-                        Highest Sales Date:{" "}
-                        <span className='font-bold'>{highestValueDate}</span>
-                     </p>
+                  {/* FOOTER */}
+                  <div>
+                     <hr />
+                     <div className='flex justify-between items-center mt-6 text-sm px-7 mb-4'>
+                        <p>{salesData.length || 0} days</p>
+                        <p className='text-sm'>
+                           Highest Sales Date:{" "}
+                           <span className='font-bold'>{highestValueDate}</span>
+                        </p>
+                     </div>
                   </div>
                </div>
             </>
