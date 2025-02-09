@@ -273,5 +273,9 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
 ######
 
 -  `February 9, 2025 - Sunday`
+
    -  `3:43:02 - 3:57:15 - StatCard.tsx`
    -  `Mock static data @ client/src/app/dashboard/index.tsx - forget what is it called basta need to review it in react or reusable styling`
+   -  `its always good to start at the server if you have the data format setup up and running you can always atleast how the data will be display output on the frontend/client - 3:58:01`
+
+-  `Next-> 3:58:12-ProductController creation starts here server/src/controllers/productController.ts `
