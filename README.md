@@ -269,3 +269,9 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
 -  `CardPurchaseSummary creation - 2:47:38 - 3:00:16  client/src/dashboard/CardPurchasedSummary.tsx`
 
    -  `fixing the <AreaChart> bug display => <ResponsiveContainer height={200} className="p-2"></...> 3:42:08`
+
+######
+
+-  `February 9, 2025 - Sunday`
+   -  `3:43:02 - 3:57:15 - StatCard.tsx`
+   -  `Mock static data @ client/src/app/dashboard/index.tsx - forget what is it called basta need to review it in react or reusable styling`
