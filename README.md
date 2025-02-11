@@ -279,3 +279,11 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
    -  `its always good to start at the server if you have the data format setup up and running you can always atleast how the data will be display output on the frontend/client - 3:58:01`
 
 -  `Next-> 3:58:12-ProductController creation starts here server/src/controllers/productController.ts `
+
+#### Creating Product
+
+-  `server/src/controllers/productController.ts `
+-  `server/src/routes/productRoutes.ts`
+-  `server/src/index.ts`
+-  `gitbash -> server -> curl http://localhost:8000/products`
+-  `3:58:06 - 4:04:42 server/src - products initial commit`
