@@ -30,7 +30,11 @@ const columns: GridColDef[] = [
 ];
 
 const Inventory = () => {
-   const { data: products, isError, isLoading } = useGetProductsQuery;
+   // const { data: products, isError, isLoading } = useGetProductsQuery;
+   const { data: products, isError, isLoading } = useGetProductsQuery();
+   // console.log("products", products);
+   // console.log("isError", isError);
+   // console.log("isLoading", isLoading);
 
    if (isLoading) {
       return <div className='py-4'>Loading...</div>;

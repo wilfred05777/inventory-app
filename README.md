@@ -297,3 +297,8 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
 -  `4:10:51- Invetory Page `
    -  `client/src/app/inventory/`
    -  `4:10:51-4:13:14 -  Invetory Page network inventory not showing data from db in preview`
+
+###### `Solution: at inventory bug is that no () - 02-14-25: 2:22AM`
+
+-  ` // const { data: products, isError, isLoading } = useGetProductsQuery; <- wrong`
+-  `const { data: products, isError, isLoading } = useGetProductsQuery() <-right;`

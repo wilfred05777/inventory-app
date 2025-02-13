@@ -49,8 +49,8 @@ export interface DashboardMetrics {
 }
 
 export const api = createApi({
+  baseQuery: fetchBaseQuery({ baseUrl: process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000" }),
   reducerPath: "api",
-  baseQuery: fetchBaseQuery({ baseUrl: process.env.NEXT_PUBLIC_API_BASE_URL }),
   // baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:8000/" }),
   tagTypes: ["DashboardMetrics", "Products"],
   endpoints: (build) => ({
@@ -65,6 +65,7 @@ export const api = createApi({
         params: search ? { search } : {},
       }),
       providesTags: ["Products"],
+
     }),
 
     createProduct: build.mutation<Product, NewProduct>({
