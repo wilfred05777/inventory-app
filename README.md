@@ -282,8 +282,15 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
 
 #### Creating Product
 
+##### Server creation
+
 -  `server/src/controllers/productController.ts `
 -  `server/src/routes/productRoutes.ts`
 -  `server/src/index.ts`
 -  `gitbash -> server -> curl http://localhost:8000/products`
 -  `3:58:06 - 4:04:42 server/src - products initial commit`
+
+##### Client/FE creation
+
+-  `connect to the FE go to client/src/state/api.ts`
+-  `4:05:37 - 4:10:44 FE and API endpoints connection`
