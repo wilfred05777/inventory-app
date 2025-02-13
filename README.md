@@ -302,3 +302,4 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
 
 -  ` // const { data: products, isError, isLoading } = useGetProductsQuery; <- wrong`
 -  `const { data: products, isError, isLoading } = useGetProductsQuery() <-right;`
+-  `Something wrong sa akoang main account in google wilfred05777 it wont show console log properly solution is use other account like bancairenw@gmail.com to testing & development`
