@@ -293,4 +293,7 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
 ##### Client/FE creation
 
 -  `connect to the FE go to client/src/state/api.ts`
--  `4:05:37 - 4:10:44 FE and API endpoints connection`
+   -  `4:05:37 - 4:10:44 FE and API endpoints connection`
+-  `4:10:51- Invetory Page `
+   -  `client/src/app/inventory/`
+   -  `4:10:51-4:13:14 -  Invetory Page network inventory not showing data from db in preview`
