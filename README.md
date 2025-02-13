@@ -290,7 +290,7 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
 -  `gitbash -> server -> curl http://localhost:8000/products`
 -  `3:58:06 - 4:04:42 server/src - products initial commit`
 
-##### Client/FE Inventory creation / Encounter Error / Solutions
+##### Client/FE Inventory page creation / Encounter Error / Solutions
 
 -  `connect to the FE go to client/src/state/api.ts`
    -  `4:05:37 - 4:10:44 FE and API endpoints connection`
@@ -304,7 +304,20 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
 -  `const { data: products, isError, isLoading } = useGetProductsQuery() <-right;`
 -  `Something wrong sa akoang main account in google wilfred05777 it wont show console log properly solution is use other account like bancairenw@gmail.com to testing & development`
 
-##### Client/FE Product creation / Encounter Error / Solutions
+##### Client/FE Product page creation / Encounter Error / Solutions
 
 -  `client/src/app/products/page.tsx `
    -  `4:24:14 - 4:24:34 - Explaination about searchTerm`
+   -  `4:22:32 - 4:34:50 Product creation page and next is modal for creating product`
+   -  `4:34:51 - Product Modal`
+      -  `client/src/app/products/CreateProductModal.tsx`
+      -  `4:34:51 - 4:53:00-41 Product Modal Creation-Then-Data Flow Explaination`
+
+##### Client/FE Users page creation / Encounter Error / Solutions
+
+-  `4:53:42`
+
+##### Server User Backend API creation
+
+-  `server/src/controllers/userController.ts` `<-next 4:54:07`
+-
