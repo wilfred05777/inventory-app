@@ -320,4 +320,7 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
 ##### Server User Backend API creation
 
 -  `server/src/controllers/userController.ts` `<-next 4:54:07`
--
+-  `server/src/routes/userRoutes.ts`
+-  `server/src/index.ts `
+-  `going to FE 4:47:10`
+-  `client/src/state/api.ts`
