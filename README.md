@@ -330,3 +330,7 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
 -  `client/src/state/api.ts`
 -  `client/src/app/users/page.tsx`
 -  `4:57:08 - 5:00:19 Client/ Users `
+
+##### USER Settings Frontend Creation
+
+-  `5:01:55- User setting page`
