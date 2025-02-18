@@ -324,3 +324,9 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
 -  `server/src/index.ts `
 -  `going to FE 4:47:10`
 -  `client/src/state/api.ts`
+
+##### USER Frontend Creation
+
+-  `client/src/state/api.ts`
+-  `client/src/app/users/page.tsx`
+-  `4:57:08 - 5:00:19 Client/ Users `
