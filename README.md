@@ -336,3 +336,9 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
 -  `5:01:55- User setting page`
 -  `client/src/app/settings/page.tsx`
 -  `5:00:55-5:12:31 User setting page`
+
+##### Expense Settings Server/Backend & Frontend Creation
+
+-  `5:13:24 Expense setting start`
+-  go to `server/src/controllers/expenseController.ts`
+-  ``
