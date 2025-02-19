@@ -352,3 +352,5 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
 -  `5:17:35 - 5:43:00 Expense frontend creation/setting`
 -  go to `client/src/state/api.ts <-configure Backend APi to connect to database`
 -  go to `client/src/app/expenses/page.ts`
+
+*  something weird behavior just pops here:
