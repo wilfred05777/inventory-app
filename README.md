@@ -334,3 +334,5 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
 ##### USER Settings Frontend Creation
 
 -  `5:01:55- User setting page`
+-  `client/src/app/settings/page.tsx`
+-  `5:00:55-5:12:31 User setting page`
