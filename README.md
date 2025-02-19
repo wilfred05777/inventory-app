@@ -339,8 +339,16 @@ DATABASE_URL="postgresql://postgres:postgres@localhost:5432/inventorymanagement?
 
 ##### Expense Settings Server/Backend & Frontend Creation
 
+###### backend creation/setup
+
 -  `5:13:24 Expense setting start`
 -  go to `server/src/controllers/expenseController.ts`
 -  go to `server/src/routes/expenseRoutes.ts`
 -  go to `server/src/index.ts`
 -  `5:13:24 - 5:17:26 Expense Backend setup`
+
+###### frontend creation/setup
+
+-  `5:17:35 - 5:43:00 Expense frontend creation/setting`
+-  go to `client/src/state/api.ts <-configure Backend APi to connect to database`
+-  go to `client/src/app/expenses/page.ts`

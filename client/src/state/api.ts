@@ -66,7 +66,7 @@ export const api = createApi({
   baseQuery: fetchBaseQuery({ baseUrl: process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000" }),
   reducerPath: "api",
   // baseQuery: fetchBaseQuery({ baseUrl: "http://localhost:8000/" }),
-  tagTypes: ["DashboardMetrics", "Products", "Users", "Users2"],
+  tagTypes: ["DashboardMetrics", "Products", "Users", "Expenses", "Users2"],
   endpoints: (build) => ({
     getDashboardMetrics: build.query<DashboardMetrics, void>({
       query: () => "/dashboard",
@@ -94,10 +94,15 @@ export const api = createApi({
       query: () => "/users",
       providesTags: ["Users"],
     }),
-    getUsers2: build.query<User[], void>({
+    getExpensesByCategory: build.query<ExpenseByCategorySummary[], void>({
       query: () => "/users",
       providesTags: ["Users"],
     }),
+    getUsers2: build.query<ExpenseByCategorySummary[], void>({
+      query: () => "/expenses",
+      providesTags: ["Expenses"],
+    }),
+
   }),
 });
 
@@ -106,5 +111,6 @@ export const {
   useGetProductsQuery,
   useCreateProductMutation,
   useGetUsersQuery,
+  useGetExpensesByCategoryQuery
   // userGetUsers2Query,
 } = api;

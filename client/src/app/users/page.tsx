@@ -21,7 +21,7 @@ const Users = () => {
       return <div className='py-4'>Loading...</div>;
    }
 
-   if (isError) {
+   if (isError || !users) {
       return (
          <div className='text-center text-red-50 py-4'>
             Failed to fetch users. Please try again later.
