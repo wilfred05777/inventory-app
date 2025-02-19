@@ -41,14 +41,30 @@ const Expenses = () => {
    const parseDate = (dateString: string) => {
       const date = new Date(dateString);
       return date.toISOString().split("T")[0];
+
+      // Handle invalid/empty dates
+      // if (!dateString || isNaN(Date.parse(dateString))) {
+      //    return "1970-01-01";
+      // }
+
+      // const date = new Date(dateString);
+      // return date.toISOString().split("T")[0];
+      // return new Date(0);
+      // return isInvalid(date) ? date : new Date(0);
    };
 
    const aggregatedData: AggregatedDataItem[] = useMemo(() => {
       const filtered: AggregatedData = expenses
          .filter((data: ExpenseByCategorySummary) => {
+            // Add null checks
+            if (!data?.date) return false;
+
             const matchesCategory =
                selectedCategory === "All" || data.category === selectedCategory;
             const dataDate = parseDate(data.date);
+            // Handle empty dates
+            if (!startDate || !endDate) return matchesCategory;
+
             const matchesDate =
                !startDate ||
                !endDate ||
@@ -56,6 +72,8 @@ const Expenses = () => {
             return matchesCategory && matchesDate;
          })
          .reduce((acc: AggregatedData, data: ExpenseByCategorySummary) => {
+            // Handle invalid amounts
+            // const amount = parseInt(data.amount) || 0;
             const amount = parseInt(data.amount);
             if (!acc[data.category]) {
                acc[data.category] = { name: data.category, amount: 0 };
